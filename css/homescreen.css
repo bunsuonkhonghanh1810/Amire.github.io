@@ -11,7 +11,8 @@ header {
     display: grid;
     grid-template-columns: repeat(6, max-content);
     background-color: #000000;
-    
+    position: sticky;
+    top: 0;
 }
 
 #amire {
@@ -80,6 +81,38 @@ product > div > .name > p {
     background-color: #000000;
     font-size: 25px;
     align-self: center;
+}
+
+.pantsbox {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 20px;
+}
+
+.pants {
+    display: grid;
+    grid-template-rows: auto auto auto 30px;
+    background-color: #666769;
+    justify-items: center;
+    align-items: center;
+}
+
+.pantspics {
+    width: 21vw;        
+    height: 26vw;  
+    object-fit: cover;
+    padding: 15px;
+}
+
+.pants > p {
+    font-size: 25px;
+}
+
+.add {
+    font-size: 25px;
+    background-color: #383e48;
+    padding: 20px 60px;
 }
 
 footer {
