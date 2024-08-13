@@ -99,8 +99,8 @@ product > div > .name > p {
 }
 
 .pantspics {
-    width: 21vw;        
-    height: 26vw;  
+    width: 320px;        
+    height: 400px;  
     object-fit: cover;
     padding: 15px;
 }
