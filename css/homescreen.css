@@ -7,6 +7,10 @@ container {
     background-color: #312e2d;
 }
 
+header.active {
+    background: rgba(255, 255, 255, 0.5); 
+}
+
 header {
     display: grid;
     grid-template-columns: repeat(6, max-content);
@@ -31,6 +35,12 @@ header {
     font-size: 20px;
     padding: 30px;
     margin-top: 28px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.HPIC.active {
+    color: #ffcc00; 
+    background-color: rgba(255, 255, 255, 0.2); 
 }
 
 home {
