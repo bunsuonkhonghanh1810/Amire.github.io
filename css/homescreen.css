@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 container {
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -5,10 +10,6 @@ container {
     font-style: italic;
     color: #ffffff;
     background-color: #312e2d;
-}
-
-header.active {
-    background: rgba(255, 255, 255, 0.5); 
 }
 
 header {
@@ -29,6 +30,7 @@ header {
 }
 
 .HPIC {
+    color: #ffffff;
     text-decoration: none;
     font-weight: 5;
     font-style: italic;
@@ -113,7 +115,7 @@ product > div > .name > p {
 }
 
 .pantspics {
-    max-width: 100%;;        
+    max-width: 100%;   
     max-height: 100%;  
     object-fit: cover;
 }
@@ -126,6 +128,17 @@ product > div > .name > p {
     font-size: 25px;
     background-color: #383e48;
     padding: 20px 60px;
+}
+
+.line {
+    border-bottom: 5px solid #ffffff;
+    margin: 40px 100px;
+}
+
+.specific-product {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 10px;
 }
 
 footer {
