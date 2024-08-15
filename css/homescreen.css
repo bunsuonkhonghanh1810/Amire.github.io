@@ -145,8 +145,65 @@ product > div > .name > p {
     margin: 10px;
 }
 
+introduce {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    margin: 10px;
+    margin-bottom: 50px;
+    justify-items: center;
+}
+
+introduce div {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 10px;
+    margin-bottom: 50px;
+    background-color: #666769;
+    justify-content: space-around;
+}
+
+introduce h1 {
+    font-size: 60px;
+    font-style: none;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+
+introduce img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+introduce p {
+    align-self: start;
+    justify-self: start;
+    font-size: 30px;
+}
+
 footer {
     display: grid;
     grid-template-columns: repeat(3, auto);
     background-color: #000000;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+footer contact h1, footer customer-sp h1, footer media h1 {
+    text-decoration-line: underline;
+    text-underline-offset: 15px;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0; 
+}
+
+contact {
+    display: grid;
+    grid-auto-rows: auto;
+    margin-bottom: 200px;
 }
