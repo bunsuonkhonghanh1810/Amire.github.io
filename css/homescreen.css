@@ -116,6 +116,7 @@ product > div > .name > p {
     align-items: center;
     overflow: hidden;
     padding: 10px;
+    cursor: pointer;
 }
 
 .pantspics {

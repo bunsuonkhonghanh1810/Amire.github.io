@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #312e2d;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+}
+
+#amire {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 45px;
+    padding: 30px;
+}
+
+.HPIC {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 5;
+    font-style: italic;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 28px;
+    transition: color 0.3s, background-color 0.3s;
+}
