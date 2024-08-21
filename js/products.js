@@ -7,8 +7,6 @@ const products = [
 
 const product = products.find(p => p.id === productId);
 
-document.getElementById('hehe').innerText ='hehe';
-
 if (product) {
     document.getElementById('product-name').innerText = product.name;
     document.getElementById('product-price').innerText = product.price;

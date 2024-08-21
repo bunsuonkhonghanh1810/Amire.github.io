@@ -4,6 +4,6 @@ document.querySelectorAll('.pants').forEach(item => {
 
         const productId = item.getAttribute('data-id');
         
-        window.location.href = `../html/products.html?id=${productId}`;
+        window.location.href = `html/products.html?id=${productId}`;
     });
 });
